@@ -1,6 +1,6 @@
 /*:root seçicisi kök ögeyi temsil eder genellikle özel değişkenler burada tanımlanır.*/
 :root{
-    --bg:white;
+    --bg:rgb(255, 255, 255);
     --textColor:black;
     --softBg:#f0f0f0;
     --softTextColor:#62662;

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import styles from "./menuPosts.module.css"
+import styles from "./menuPosts.module.css";
 
 const MenuPosts = ({ withImage }) => {
   return (
@@ -13,12 +13,12 @@ const MenuPosts = ({ withImage }) => {
           </div>
         )}
         <div className={styles.textContainer}>
-          <span className={`${styles.category} ${styles.travel}`}>Travel</span>
+          <span className={`${styles.category} ${styles.travel}`}>Seyahat</span>
           <h3 className={styles.postTitle}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </h3>
           <div className={styles.detail}>
-            <span className={styles.username}>John Doe</span>
+            <span className={styles.username}>Duysal Kantarcı</span>
             <span className={styles.date}> - 10.03.2023</span>
           </div>
         </div>
@@ -30,14 +30,12 @@ const MenuPosts = ({ withImage }) => {
           </div>
         )}
         <div className={styles.textContainer}>
-          <span className={`${styles.category} ${styles.culture}`}>
-            Culture
-          </span>
+          <span className={`${styles.category} ${styles.culture}`}>Kültür</span>
           <h3 className={styles.postTitle}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </h3>
           <div className={styles.detail}>
-            <span className={styles.username}>John Doe</span>
+            <span className={styles.username}>Duysal Kantarcı</span>
             <span className={styles.date}> - 10.03.2023</span>
           </div>
         </div>
@@ -49,12 +47,12 @@ const MenuPosts = ({ withImage }) => {
           </div>
         )}
         <div className={styles.textContainer}>
-          <span className={`${styles.category} ${styles.food}`}>Food</span>
+          <span className={`${styles.category} ${styles.food}`}>Yemek</span>
           <h3 className={styles.postTitle}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </h3>
           <div className={styles.detail}>
-            <span className={styles.username}>John Doe</span>
+            <span className={styles.username}>Duysal Kantarcı</span>
             <span className={styles.date}> - 10.03.2023</span>
           </div>
         </div>
@@ -66,14 +64,12 @@ const MenuPosts = ({ withImage }) => {
           </div>
         )}
         <div className={styles.textContainer}>
-          <span className={`${styles.category} ${styles.fashion}`}>
-            Fashion
-          </span>
+          <span className={`${styles.category} ${styles.fashion}`}>Moda</span>
           <h3 className={styles.postTitle}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </h3>
           <div className={styles.detail}>
-            <span className={styles.username}>John Doe</span>
+            <span className={styles.username}>Duysal Kantarcı</span>
             <span className={styles.date}> - 10.03.2023</span>
           </div>
         </div>

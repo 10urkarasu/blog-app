@@ -24,7 +24,7 @@ const SinglePage = async ({ params }) => {
     <div className={styles.container}>
       <div className={styles.infoContainer}>
         <div className={styles.textContainer}>
-          <h1>{data?.title}</h1>
+          <h1 className={styles.title}>{data?.title}</h1>
           <div className={styles.user}>
             {data?.user?.image && (
               <div className={styles.userImageContainer}>
@@ -37,7 +37,7 @@ const SinglePage = async ({ params }) => {
               </div>
             )}
             <div className={styles.userTextContainer}>
-              <span className={styles.userName}>{data?.user.name}</span>
+              <span className={styles.userName}>{data?.user?.name}</span>
               <span className={styles.date}>01.01.2024</span>
             </div>
           </div>

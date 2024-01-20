@@ -1,7 +1,7 @@
-import React from 'react'
-import styles from './footer.module.css'
-import Image from 'next/image'
-import Link from 'next/link'
+import React from "react";
+import styles from "./footer.module.css";
+import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -10,12 +10,17 @@ const Footer = () => {
         <div className={styles.logo}>
           <h1 className={styles.logoText}>DevBlog</h1>
         </div>
-        <p className={styles.description}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam animi expedita cumque eum mollitia porro modi eligendi necessitatibus quod nulla ipsum, placeat dolorum, obcaecati earum ratione, neque voluptatem aperiam nostrum.</p>
+        <p className={styles.description}>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+          animi expedita cumque eum mollitia porro modi eligendi necessitatibus
+          quod nulla ipsum, placeat dolorum, obcaecati earum ratione, neque
+          voluptatem aperiam nostrum.
+        </p>
         <div className={styles.icons}>
-          <Image src="/facebook.png" alt='' width={18} height={18}></Image>
-          <Image src="/instagram.png" alt='' width={18} height={18}></Image>
-          <Image src="/tiktok.png" alt='' width={18} height={18}></Image>
-          <Image src="/youtube.png" alt='' width={18} height={18}></Image>
+          <Image src="/facebook.png" alt="" width={18} height={18}></Image>
+          <Image src="/instagram.png" alt="" width={18} height={18}></Image>
+          <Image src="/tiktok.png" alt="" width={18} height={18}></Image>
+          <Image src="/youtube.png" alt="" width={18} height={18}></Image>
         </div>
       </div>
       <div className={styles.links}>
@@ -23,8 +28,8 @@ const Footer = () => {
           <span className={styles.listTitle}>Bağlantılar</span>
           <Link href="/">Anasayfa</Link>
           <Link href="/">Blog</Link>
-          <Link href="/">About</Link>
-          <Link href="/">Contact</Link>
+          <Link href="/">Hakkında</Link>
+          <Link href="/">İletişim</Link>
         </div>
         <div className={styles.list}>
           <span className={styles.listTitle}>Etiketler</span>
@@ -42,7 +47,7 @@ const Footer = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

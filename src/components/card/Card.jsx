@@ -14,12 +14,17 @@ const Card = ({ key, item }) => {
       <div className={styles.textContainer}>
         <div className={styles.detail}>
           <span className={styles.date}>{item.createdAt.substring(0, 10)}</span>
-          <span className={styles.category}> - {item.catSlug}</span>
+          <span className={styles.category}> - {item.cat}</span>
         </div>
         <Link href={`/posts/${item.slug}`}>
           <h1>{item.title}</h1>
         </Link>
-        <p className={styles.desc.substring(0, 60)}>{item.desc}</p>
+        <p
+          className={styles.desc}
+          dangerouslySetInnerHTML={{
+            __html: item.desc.substring(0, 400),
+          }}
+        />
         <Link className={styles.link} href={`/posts/${item.slug}`}>
           Devamını oku
         </Link>
